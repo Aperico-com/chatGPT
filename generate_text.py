@@ -19,3 +19,5 @@ print("GPT3 Response: ", response)
 
 def generate_prompt(keyword):
     return """Speculate on what the next update for Unreal Engine 5 will be"""
+
+print(response.choices[0].text)
